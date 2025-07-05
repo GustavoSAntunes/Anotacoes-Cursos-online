@@ -16,10 +16,10 @@ Center / top / bottom / right / left.
 
 Normalmente usa-se dois elementos para definir com mais precisão onde será a "âncora", ou seja, onde a imagem vai começar a se expandir. Ex:
 
-| top left    |               |              |
+| top left    | top center    | top right    |
 | ----------- | ------------- | ------------ |
-| center left | center center |              |
-|             |               | bottom right |
+| center left | center center | center right |
+| bottom left | bottom center | bottom right |
 
 
 **PS:** Quando for usar imagens de fundo, escolha uma cor de fundo, visto que caso a conexão do cliente ou o servidor em sí estiver lento, o texto vai carregar primeiro que a imagem, pois o conteúdo tem prioridade sobre esse estilo.
@@ -31,11 +31,10 @@ Podemos definir manualmente com pixels.
 
 Podemos usar o height de 100vh e alterar o background-size para 100%, ela resolve o problema mas é *péssima* devido a distorção da imagem.
 
+No [background-size] podemos usar outros 2 elementos:
+- [contain] - Faz com que a imagem sempre seja mostrada 100%, mas com varias "picotadas" ao redor da tela, semelhante a cena de um filme com bordas em volta.
 
-[contain] - Faz com que a imagem sempre seja mostrada 100%, mas com varias "picotadas" ao redor da tela, semelhante a cena de um filme com bordas em volta.
-
-
-[cover] - Ele não exibe 100% da imagem, mas sempre ocupa 100% da viewport (da tela).
+- [cover] - Ele não exibe 100% da imagem, mas sempre ocupa 100% da viewport (da tela).
 
 
 [background-attachment] - Ela irá fixar o background na viewport, ou seja, vai resolver o problema daquelas barras pretas ao usar o [cover].
@@ -51,6 +50,6 @@ background
 
                 color > image > position > / > size > repeat > attachment
 
-a "/" é importante para separar o position e o size, pois sem eles o css considera como uso incorreto da propriedade e sumir com a imagem de fundo.
+a "/" é importante para separar o position e o size, pois sem eles o css considera como uso incorreto da propriedade, fazendo com que a imagem de fundo suma.
 
 

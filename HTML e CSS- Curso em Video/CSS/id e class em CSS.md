@@ -1,6 +1,8 @@
 São formas de organizar seus estilos.
 
-**id = #  /  classe = .  /  pseudo-classe = :  /**
+**id = #
+classe = .
+pseudo-classe = :**
 
 Um dos seus usos é identificar um componente do seu site, para que você possa mudar aquele componente em específico.
 

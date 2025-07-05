@@ -31,6 +31,6 @@
 Só usar o Style do CSS
 	Use [margin] para ajustar o espaçamento entre o texto e os outros conteúdos
 	[Text-align] -> Alinhar textos.
-	[Text-indent] -> Espaço de parágrafo, identação.
+	[Text-indent] -> Espaço de parágrafo, indentação.
 	[text-align justify] -> para deixar o texto justificado.
 	[line-height] -> Altera a **altura** entre **linhas**.

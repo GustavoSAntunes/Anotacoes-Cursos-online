@@ -11,6 +11,14 @@
 [ul] -> Listas não ordenadas, ou seja, não são numeradas.
 	[type=""] -> Mudar a forma da lista (circle, disc, square)
 
+
+[list-style-position] -> Mudar a posição da lista, normalmente ela fica pra fora então usamos esse comando para ela ficar dentro, se ainda assim ficar meio pra fora aumente o padding do aside.
+
+[columns] -> Aumente a quantidade de colunas que uma lista irá ocupar no espaço, vale notar que ao colocar mais de 2, normalmente cria-se problemas de Responsividade.
+
+[list-style-type] -> Podemos mudar a bolinha do item de uma [ul] por outro símbolo, como emojis.
+Para colocar emojis, procure o código dela na [Emojipedia](https://emojipedia.org) e, entre aspas simples, coloque primeiro uma barra invertida (\) e coloque o código.
+
 Se quiser editar mais de um comando ao mesmo tempo, você pode segurar ALT e clicar onde deseja fazer as mudanças.
 
 
