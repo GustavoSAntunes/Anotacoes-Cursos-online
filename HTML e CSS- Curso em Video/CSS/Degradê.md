@@ -1,6 +1,10 @@
 
 Para isso, podemos usar o parâmetro [background-image] + [linear-gradient]
-Pode colocar quantas cores quiser no degradê.
+Pode colocar quantas cores quiser no degradê. Ex:
+
+```gradient
+background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+```
 
 [background-attachment] para manter o degradê fixo na pagina.
 

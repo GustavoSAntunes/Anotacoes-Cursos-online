@@ -4,27 +4,51 @@ Para fazer o alinhamento vertical, primeiramente precisaremos da presença de du
 
 Para alinhar um elemento horizontalmente, basta usar o [margin: auto] e já resolve, mas para alinhar verticalmente é um pouco mais complicado.
 
-Uma das formas é usando o display, com apenas 3 linhas:
+Uma das formas é usando o display, com apenas 4 linhas:
 
 
 ```vertical
 .container {
-
-    display: flex; /* Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo */
-
-    justify-content: center; /* Alinhamento horizontal, ou seja, dispensa margin: auto; */
-
-    align-items: center; /* Alinhamento vertical */
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
  ```
 
+
+``display: flex;``  Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo 
+
+``justify-content: center;``  Alinhamento horizontal, ou seja, dispensa margin: auto; 
+
+``align-items: center;``  Alinhamento vertical
+
+`height: 100vh;` Ocupa toda a altura da tela
+
 **PS:** Essas propriedades sempre são colocadas no elemento-pai (container), não se esqueçam desse importante detalhe.
+
+As vezes centralizar com o flexbox pode dar problemas se o site não estiver configurado, caso esteja dificil de centralizar algo podemos mudar as margens universais e as alturas do site:
+
+``` padrao
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+}
+```
+
+Podemos também usar os comandos: [top], [right], [left] e [top] para maior precisão na centralização
 
 Outra opção também é usar o display grid:
 ```grid
 display: grid;
 place-items: center;
+height: 100vh;
 ```
 
 E a ultima opção, é usando o translate do [absolute]:

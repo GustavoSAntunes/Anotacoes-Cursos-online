@@ -1,24 +1,30 @@
 
 Use o [transition-duration] em um [a:hover] para criar uma pequena animação nos botões ou em qualquer outra caixa.
 
-podemos usar [border-radius] para fazer as bordas ficarem em forma de círculo.
+podemos usar [border-radius] (50%) para fazer as bordas ficarem em forma de círculo.
 
 Coloque o tamanho máximo de um padding no [nav], então crie um [nav > a] com um padding um pouco menor, e então faça um [nav > a:hover] com o mesmo tamanho do [nav], se fizer isso junto com o [transition-duration], faz um efeito de animação muito massa.
 
 Esse código abaixo permite a utilização de animações para os botões, fazendo com que ganhem uma sombra colorida por um breve momento.
 
+Podemos usar o [scale] em 1.1 durante o hover para que ele aumente um pouco de tamanho.
+
+Tente usar o comando [box-sizing: border-box] caso a caixa quebre na interação de hover (quebrar no sentido de todos os botões mudarem de lugar ao usar o hover).
+
+Podemos usar o [opacity] entre [.5] ou [.75] na parte principal para que ele fique mais discreto, e ao usar o hover aumente para [1] novamente.
+
+[outline] para mudar a cor da borda no hover.
+
 ```pulsate
 @keyframes pulsate {
 
-    0%{
-
-        box-shadow:
-
-        0 0 25px red,
-
-        0 0 25px green;
-
-    }
+	0%{		
+		box-shadow:
+		
+		0 0 25px red,
+		
+		0 0 25px green;	
+	}
 
 }
 ```

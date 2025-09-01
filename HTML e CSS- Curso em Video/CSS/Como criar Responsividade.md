@@ -1,6 +1,8 @@
 
 A forma mais fácil de criar um site responsivo é usando os comando [max-width] e [min-width]
 
+Se quiser fazer com que uma imagem ou algo parecido ocupe uma tela inteira, coloque o [height] e [width] como **100%**.
+
 Usando o Inspecionar ou a extensão [Windows Resizer] podemos achar as medidas do site em forma de [px].
 
 Dessa forma iremos procurar as larguras ideias para o site, ou seja:

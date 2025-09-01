@@ -36,7 +36,10 @@ O [header] é o cabeçalho, normalmente lá ficam o Banner, logo, formulário de
 
 [nav] Agrupa o conjunto de links de navegação do site.
 
-PS: Não faz merda, nav fica FORA do header.
+Vale lembrar que há diferença semântica entre as tags [ul] (itens para disposição / visualizar) e [menu] (barra de ferramentas contendo comandos que o usuário pode interagir / ativar).
+PS: [menu] é uma tag semântica, portanto, dentro dela ainda será usado o [ul]
+
+PS 2: Não faz merda, nav fica FORA do header.
 
 [main] É onde fica o conjunto principal da página.
 

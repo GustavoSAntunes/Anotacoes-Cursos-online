@@ -8,21 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29421bfe5a124107",
+            "id": "452ba61df1a7f75c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Iframe.md",
+                "file": "CSS/Media Queries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iframe"
+              "title": "Media Queries"
             }
           },
           {
-            "id": "452ba61df1a7f75c",
+            "id": "3c1dfa0e060dedde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/id e class em CSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "id e class em CSS"
+            }
+          },
+          {
+            "id": "4b188594f73e8ba6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,35 +50,35 @@
             }
           },
           {
-            "id": "7cf522ab69bd2046",
+            "id": "b9ebf59831566611",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Alinhamento Vertical.md",
+                "file": "CSS/Animação para menus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alinhamento Vertical"
+              "title": "Animação para menus"
             }
           },
           {
-            "id": "4b188594f73e8ba6",
+            "id": "e36d2b29ec84635b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Background-image.md",
+                "file": "HTML/Formulários.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Background-image"
+              "title": "Formulários"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML e CSS/Tags em HTML.md",
+                "file": "CSS/Animação para menus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tags em HTML"
+              "title": "Backlinks for Animação para menus"
             }
           },
           {
@@ -198,6 +212,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -206,44 +221,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "afae8274ecbc2006",
+  "active": "e36d2b29ec84635b",
   "lastOpenFiles": [
-    "CSS/Alinhamento Vertical ; Centralizar.md",
-    "CSS/Unidades de medida.md",
-    "CSS/Modelo de caixas.md",
-    "CSS/Como criar Responsividade.md",
-    "HTML/Listas.md",
-    "CSS/Lista de (alguns) comandos.md",
-    "HTML/Imagem.md",
-    "HTML/Iframe.md",
-    "CSS/Parallax.md",
-    "CSS/Background-image.md",
-    "Planejando um site.md",
     "CSS/Animação para menus.md",
-    "CSS/Variáveis.md",
-    "CSS/Uma nota sobre elementos.md",
-    "CSS/Shorthand; border, padding, margin e outline.md",
-    "CSS/Representando cores.md",
-    "CSS/Pseudoclasses.md",
-    "CSS/Ajustando o texto.md",
-    "HTML/Trabalhando com Links.md",
-    "HTML/Tabelas.md",
-    "CSS/Cabeçalhos e menus fixos.md",
-    "HTML/Imagens Dinâmicas.md",
-    "CSS/Estilos de CSS.md",
-    "CSS/Como estilizar videos.md",
+    "CSS/Alinhamento Vertical ; Centralizar.md",
+    "HTML/Formulários.md",
+    "Planejando um site.md",
+    "Como fazer uma imagem gigante (projeto sociais).md",
+    "CSS/Media Queries.md",
+    "Prints.md",
     "CSS/id e class em CSS.md",
-    "HTML/Vídeos.md",
+    "CSS/CORES.md",
+    "fonts.google.com.md",
+    "CSS/Lista de (alguns) comandos.md",
+    "CSS/Degradê.md",
+    "CSS/Representando cores.md",
+    "Atalhos.md",
+    "CSS/Como criar Responsividade.md",
+    "CSS/Unidades de medida.md",
+    "CSS/Uma nota sobre elementos.md",
+    "CSS/Variáveis.md",
+    "CSS/Modelo de caixas.md",
+    "CSS/Parallax.md",
+    "CSS/Introdução.md",
+    "CSS/Grouping Tags.md",
+    "HTML/Listas.md",
+    "HTML/Tabelas.md",
+    "imagens/Pasted image 20250720192101.png",
+    "CSS/Cabeçalhos e menus fixos.md",
+    "CSS/Background-image.md",
+    "imagens/Pasted image 20250720194549.png",
+    "imagens/Pasted image 20250720194546.png",
+    "imagens/Pasted image 20250720193546.png",
+    "imagens/Pasted image 20250720192131.png",
+    "imagens/Pasted image 20250720192115.png",
     "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250226130903.png",
     "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120103900.png",
     "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120103831.png",
     "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120103721.png",
-    "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120103349.png",
-    "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120103018.png",
-    "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120102701.png",
-    "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120102508.png",
-    "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250120101953.png",
-    "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens/Pasted image 20250116184036.png",
     "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/imagens",
     "Anotacoes-Cursos-online/imagens",
     "Anotacoes-Cursos-online/HTML e CSS- Curso em Video/HTML",

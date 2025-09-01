@@ -47,6 +47,14 @@ Vale lembrar que o *outline* não aumenta os limites da margem, então mesmo se 
 
 Podemos usar [display: inline-block] para que a caixa ocupe somente o conteúdo. O comando
 
+Usando [position:absolute], podemos mudar a direção em que essa caixa se encontra (útil para criar menu com botões de algum lado da página, por exemplo)
+
+``` absolute
+position: absolute;
+
+right: 0;
+```
+
 
 # Shorthand: border, padding, margin e outline
 

@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,9 +171,24 @@
   },
   "active": "d0df6287583d772f",
   "lastOpenFiles": [
+    "HTML e CSS- Curso em Video/CSS/Lista de (alguns) comandos.md",
+    "Untitled.base",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250720194546.png",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250720194549 1.png",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250720194549.png",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250720192131.png",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250226130903.png",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250120103721.png",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250120103831.png",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250720192101.png",
+    "HTML e CSS- Curso em Video/Atalhos.md",
+    "HTML e CSS- Curso em Video/Como fazer uma imagem gigante (projeto sociais).md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "HTML e CSS- Curso em Video/imagens/Pasted image 20250720193546.png",
+    "README.md",
     "HTML e CSS- Curso em Video/CSS/CORES.md",
     "HTML e CSS- Curso em Video/CSS/Representando cores.md",
-    "HTML e CSS- Curso em Video/CSS/Lista de (alguns) comandos.md",
     "HTML e CSS- Curso em Video/CSS/Cabeçalhos e menus fixos.md",
     "HTML e CSS- Curso em Video/CSS/Ajustando o texto.md"
   ]

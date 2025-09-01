@@ -16,8 +16,40 @@ Coloque suas cores e fontes em *variáveis*.
 
 Use o [:root] para isso ([[Variáveis]])
 
-use uma tag universal [*]* para fazer com que as margens e os paddings fiquem zerados, para evitar problemas principalmente com o header e barras estranhas entre o nav e o main.
+Use uma tag universal [*]* para fazer com que as margens e os paddings fiquem zerados, para evitar problemas principalmente com o header e barras estranhas entre o nav e o main.
 
+``` universal
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+```
+
+Caso o seu site seja [[Media Queries#Mobile First]], outra configuração universal muito usada é a [border-box], fazendo com que a borda seja inclusa no cálculo do tamanho:
+
+```mobile-first
+* {
+
+	margin: 0;
+	padding: 0;
+	
+	box-sizing: border-box;
+}
+```
+
+Podemos também mudar o height e o width do site para o padrão da tela, isso pode evitar problemas no futuro, principalmente com flexbox e centralizar os mesmos.
+
+``` H-W
+html, body {
+
+    height: 100vh;
+
+    width: 100vw;
+}
+```
 Use o @font-face com [font-family] e [url] para adicionar fontes externas.
 
 
@@ -26,19 +58,21 @@ Use o @font-face com [font-family] e [url] para adicionar fontes externas.
 # Segundo passo: Coloque o conteúdo no site
 
 As tags são organizadas em:
-	O [header] é o cabeçalho, normalmente lá ficam o Banner, logo, formulário de pesquisa, ícones e menu de navegação.
-	-
-	[nav] Agrupa o conjunto de links de navegação do site.
-	-
-	[main] É onde fica o conjunto principal da página.
-	-
-	[aside] Ficam informações relacionadas ao link principal.
-	-
-	[footer] É o rodapé do site, ele pode conter informações de autoria, direitos autorais, contato, mapa do site, links e documentos relacionados.
-	-
-	PS: Não faz merda, nav fica fora do header.
-	-
-	É possível ter mais de um [h1] em um site, por exemplo o título principal de um site no header e o título principal da matéria no main, ambos são aptos a usar o h1.
+O [header] é o cabeçalho, normalmente lá ficam o Banner, logo, formulário de pesquisa, ícones e menu de navegação.
+
+[nav] Agrupa o conjunto de links de navegação do site.
+
+Vale lembrar que há diferença semântica entre as tags [ul] (itens para disposição / visualizar) e [menu] (barra de ferramentas contendo comandos que o usuário pode interagir / ativar).
+
+[main] É onde fica o conjunto principal da página.
+
+[aside] Ficam informações relacionadas ao link principal.
+
+[footer] É o rodapé do site, ele pode conter informações de autoria, direitos autorais, contato, mapa do site, links e documentos relacionados.
+
+PS: Não faz merda, nav fica fora do header.
+
+É possível ter mais de um [h1] em um site, por exemplo o título principal de um site no header e o título principal da matéria no main, ambos são aptos a usar o h1.
 
 Adicione o ícone e todo o conteúdo que você quer naquela página, colocando-os em [articles], com [p] e [h1, 2, 3, etc..].
 
@@ -54,16 +88,11 @@ Organize os itens que estarão em tags especiais (listas [ol, ul]e abreviações
 
 Adicione os links [a], externos ou internos
 
-Formatar o texto usando [b], [strong], etc... () [[Tags#Formatação de Texto]]
+Formatar o texto usando [b], [strong], etc... ([[Tags#Formatação de Texto]])
 
+Podemos também usar iframes, de formas variadas: [[Iframe]]
 
-
-
-# Quarto passo: As margens
-
-Caso as margens estejam incomodando (provavelmente estão), podemos mudar as definições globais de todas as caixas para remover suas margens, removendo esses espaços estranhos no site.
-
-Para isso, usa-se o seletor global [*]*, ela seleciona todos os elementos do arquivo. Agora, podemos mudar a *margin* e o *padding* para 0.
+Formulários podem ser bem importantes: [[Formulários]]
 
 
 
@@ -89,7 +118,8 @@ Para textos responsivos use o [text-size] como xvh.
 
 
 
-**Sexto passo: O header**
+# Sexto passo: O header
+
 
 Podemos usar o [min-height] e o [max-height] para definirmos a altura mínima e máxima do cabeçalho.
 
