@@ -117,45 +117,30 @@ Dentro do fieldset ainda, podemos por o título dessa caixa, usando o [legend]. 
 ```
 <form action="cadastro.php" method="get" autocomplete="on">
 
-        <fieldset> <!-- Fica dentro do form, envelopando todos os inputs-->
+	<fieldset> <!-- Fica dentro do form, envelopando todos os inputs-->
+		<legend>Dados Pessoais</legend>
+		<p>
+			<label for="inome">Nome</label>
+			<input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
+		</p>
 
-            <legend>Dados Pessoais</legend>
-
-            <p>
-
-                <label for="inome">Nome</label>
-
-                <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
-
-            </p>
-
-            <p>
-
-                <label for="iemail">E-mail</label>
-
-                <input type="email" name="email" id="iemail" autocomplete="email" required>
-
-            </p>
-
-            <p>
-
-                <label for="itel">Telefone</label>
-
-                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-[0-9]{4}$" required placeholder="(xx) xxxx-xxxx">
-
-            </p>
-
-            <p>
-
-                <input type="submit" value="Enviar">
-
-                <input type="reset" value="Limpar">
-
-            </p>
-
-        </fieldset>
-
-    </form>
+		<p>
+			<label for="iemail">E-mail</label>
+			<input type="email" name="email" id="iemail" autocomplete="email" required>
+		</p>
+		
+		<p>
+			<label for="itel">Telefone</label>
+			<input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-[0-9]{4}$" required placeholder="(xx) xxxx-xxxx">
+		</p>
+		
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+		</p>
+	</fieldset>
+	
+</form>
 ```
 
 O fieldset pode ser usado principalmente para agrupar diferentes grupos de dados semelhantes, no qual cada um tem um assunto diferente. Ex: Uma caixa para dados pessoais, dados de família, dados financeiros, dados escolares, etc.
