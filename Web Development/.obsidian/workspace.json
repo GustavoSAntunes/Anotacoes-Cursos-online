@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "b3a673831a37d263",
+    "type": "split",
+    "children": [
+      {
+        "id": "3440b93216588bf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a76b93c4628754a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Grid Layout.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Grid Layout"
+            }
+          },
+          {
+            "id": "bbca0c69ad51c7a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Flexbox.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Flexbox"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e18e134181fe7d33",
+    "type": "split",
+    "children": [
+      {
+        "id": "40eabbd2309349f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87c92518bb4ca80e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "938bdb8b8459fb79",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "flex",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "b3b0a96e9634154d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f35980d492897d40",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1ec4ff0c1b247b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "068e8757b8bf0352",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "534f183ca569033e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CSS/Flexbox.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Flexbox"
+            }
+          },
+          {
+            "id": "34e5e5e88166fcdd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "d3ab482fefcd450f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "87c92518bb4ca80e",
+  "lastOpenFiles": [
+    "CSS/Grid Layout.md",
+    "CSS/Flexbox.md",
+    "JavaScript/Local Storage.md",
+    "Como fazer uma imagem gigante (projeto sociais).md",
+    "JavaScript/JavaScript Index.md",
+    "CSS/Modelo de caixas.md",
+    "CSS/Lista de (alguns) comandos.md",
+    "CSS/Animação para menus.md",
+    "CSS/Cabeçalhos e menus fixos.md",
+    "HTML/Iframe.md",
+    "HTML/Vídeos.md",
+    "CSS/Estilizando imagens.md",
+    "CSS/Background-image.md",
+    "CSS/Ajustando o texto.md",
+    "CSS/Shorthand; border, padding, margin e outline.md",
+    "CSS/Pseudoclasses.md",
+    "CSS/CORES.md",
+    "CSS/Alinhamento Vertical.md",
+    "CSS/Como estilizar vídeos.md",
+    "CSS/Como criar Responsividade.md",
+    "HTML/Tags.md",
+    "HTML/Imagem.md",
+    "Planejando um site.md",
+    "HTML/Tabelas.md",
+    "CSS/CSS index.md",
+    "CSS/Variáveis.md",
+    "JavaScript",
+    "HTML/HTML",
+    "HTML/Untitled.base",
+    "Pasted image 20260129205128.png",
+    "Untitled.base",
+    "imagens/Pasted image 20260109201736.png",
+    "imagens/Pasted image 20250720193546.png",
+    "Untitled.canvas",
+    "imagens/Pasted image 20250720192131.png",
+    "imagens/Pasted image 20250720192115.png",
+    "imagens/Pasted image 20250720192101.png",
+    "imagens/Pasted image 20250226130903.png",
+    "imagens/Pasted image 20250120103900.png",
+    "imagens/Pasted image 20250120103831.png",
+    "imagens/Pasted image 20250120103721.png",
+    "imagens",
+    "HTML",
+    "CSS"
+  ]
+}
